@@ -14,7 +14,7 @@ namespace netfunc
     public static class http23
     {
 [FunctionName("TimerTriggerCSharp")]
-public static void Run([TimerTrigger("0 */2 * * * *")]TimerInfo myTimer, ILogger log, UseMonitor=False)
+public static void Run([TimerTrigger("0 */2 * * * *")]TimerInfo myTimer, ILogger log, UseMonitor==False)
 {
     if (myTimer.IsPastDue)
     {
